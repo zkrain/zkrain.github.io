@@ -22,7 +22,7 @@ export const paperList: PAPER[] = [
     "tags": ["Education", 'Empirical Study', 'Trustworthy AI', "Large Language Model"],
     "thumb": "./pub/VeriGrader/featured.png",
     "title": "Open-ended Structured Question Assessment with Human-LLM Collaboration",
-    "authorsA": "Fengyan Lin, Yanna Lin, Kai Cao",
+    "authorsA": "Fengyan Lin, Yanna Lin, Kai Cao, ",
     "authorsB": "*, Yi Cai",
     "type": "Conference",
     "year": 2026,
