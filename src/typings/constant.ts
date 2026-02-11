@@ -1,0 +1,1 @@
+export const tagCategories = ['Human-AI Interaction', 'Storytelling', 'Trustworthy AI', 'Visual Analytics', 'Data Transformation', 'Vis Authoring', 'Animation', 'Data Art', 'Education', 'Sports', 'Digital Humanities', 'Emotion', 'AI4VIS', 'VIS4AI', 'Visual Metaphors', 'AI/Data Literacy', 'Creativity'];

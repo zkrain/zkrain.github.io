@@ -1,0 +1,38 @@
+.content {
+  padding: 0px 20px;
+  line-height: 1.3em;
+}
+
+.news {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news .time {
+  font-weight: 500;
+  font-size: 14px;
+  width: 80px;
+
+}
+
+.news .item {
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 660px) {
+ .news .item {
+  width: calc(100% - 80px);
+ }
+}
+
+@media screen and (max-width: 660px) {
+  .news .time {
+    width: 100%;
+  }
+}
