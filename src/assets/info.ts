@@ -180,6 +180,7 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/Helium/Helium.pdf",
+      "Video": "https://youtu.be/hM5JDlHiq5A"
     } as MATERIALS
   },
   {
@@ -197,6 +198,22 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pub/relaq/RelaQ.pdf",
       "Video": "https://www.youtube.com/watch?v=jPkc_zEjNsk"
+    } as MATERIALS
+  },
+  {
+    "category": ["va", "application", "mining"],
+    "tags": ["Trajectory Analysis", "Urban Computing"],
+    "thumb": "./pub/TrafficLineGraph/featured.png",
+    "title": "A Visual Analytic Approach for Discovering Urban Community Based on Line Graph",
+    "authorsA": "Zhengxuan Lin, Chao Wang, Bin Shao, ",
+    "authorsB": ", Yongheng Wang, Yingcai Wu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "JCAD",
+    "full": "Journal of Computer-Aided Design and Computer Graphics, 37(6): 1053-1062 (2025)",
+    "honor": "Selected as Cover",
+    "materials": {
+      "Paper": "./pub/TrafficLineGraph/linegraph.pdf",
     } as MATERIALS
   },
   {
@@ -403,7 +420,7 @@ export const paperList: PAPER[] = [
     "year": 2023,
     "abbr": "CVM",
     "full": "Comput. Vis. Media 9(1): 3-39 (2023)",
-    "honor": "",
+    "honor": "Spotlight 2023",
     "materials": {
       "Paper": "./pub/survey/survey.pdf",
       "bib": "./pub/survey/cite.bib"
