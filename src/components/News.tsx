@@ -77,7 +77,7 @@ function News() {
         <div className="news">
           <span className="time">2026.04</span>
           <span className="item">
-            Fengyan and Mingwei was attending IEEE VIS 2025 in 📍Barcelona,
+            Fengyan and Mingwei was attending ACM CHI 2026 in 📍Barcelona,
             Spain.
           </span>
         </div>
