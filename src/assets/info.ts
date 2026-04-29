@@ -13,7 +13,7 @@ export const paperList: PAPER[] = [
     "abbr": "ACL (Findings)",
     "full": "Findings of the Association for Computational Linguistics: ACL 2026, 3159-3175",
     "honor": "",
-    "materials": { "Paper": "./pub/SpecEdit/SpecEdit.pdf" } as MATERIALS
+    "materials": { "Paper": "./pub/SpecEdit/SpecEdit.pdf", "Code": "https://github.com/MKCatch/SpecEdit" } as MATERIALS
   },
   {
     "category": ["hci", "vis+ai"],
