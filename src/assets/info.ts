@@ -2,6 +2,20 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
+    "category": ["ai"],
+    "tags": ["Large Language Model", "Trustworthy AI"],
+    "thumb": "./pub/SpecEdit/featured.png",
+    "title": "SpecEdit: A Spectral Approach for Multi-Round Knowledge Editing",
+    "authorsA": "Junxian Liu, ",
+    "authorsB": "*, Xin Wu, Dazhen Deng, Yi Cai",
+    "type": "Conference",
+    "year": 2026,
+    "abbr": "ACL (Findings)",
+    "full": "Findings of the Association for Computational Linguistics: ACL 2026, 3159-3175",
+    "honor": "",
+    "materials": { "Paper": "./pub/SpecEdit/SpecEdit.pdf" } as MATERIALS
+  },
+  {
     "category": ["hci", "vis+ai"],
     "tags": ["Data Visualization", 'Empirical Study', "Time Series"],
     "thumb": "./pub/DensityBars/featured.png",
@@ -14,7 +28,7 @@ export const paperList: PAPER[] = [
     "full": "ACM CHI Conference on Human Factors in Computing Systems 2026",
     "honor": "",
     "materials": {
-      // "Paper": "./pub/DensityBars/DensityBars.pdf"
+      "Paper": "./pub/DensityBars/DensityBars.pdf"
     } as MATERIALS
   },
   {
@@ -30,7 +44,23 @@ export const paperList: PAPER[] = [
     "full": "ACM CHI Conference on Human Factors in Computing Systems 2026",
     "honor": "",
     "materials": {
-      // "Paper": "./pub/VeriGrader/VeriGrader.pdf"
+      "Paper": "./pub/VeriGrader/VeriGrader.pdf"
+    } as MATERIALS
+  },
+  {
+    "category": ["hci", "infovis"],
+    "tags": ["Data Visualization", 'Time Series'],
+    "thumb": "./pub/TSEditor/featured.png",
+    "title": "TSEditor: Interactive Time Series Editing for Privacy Preservation",
+    "authorsA": "Zihan Xu, Shuhan Liu, Kaicheng Shao, Yuanzhe Jin, Xumeng Wang, ",
+    "authorsB": ", Di Weng, Yingcai Wu",
+    "type": "Conference",
+    "year": 2026,
+    "abbr": "CHI 2026",
+    "full": "ACM CHI Conference on Human Factors in Computing Systems 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "./pub/TSEditor/TSEditor.pdf"
     } as MATERIALS
   },
   {
@@ -44,9 +74,9 @@ export const paperList: PAPER[] = [
     "year": 2026,
     "abbr": "PacificVis 2026",
     "full": "IEEE Pacific Visualization Conference 2026",
-    "honor": "",
+    "honor": "Honourable Mention Award (Conference Track)",
     "materials": {
-      // "Paper": "./pub/TrajGram/TrajGram.pdf"
+      "Paper": "./pub/TrajGram/TrajGram.pdf"
     } as MATERIALS
   },
   {
@@ -62,7 +92,7 @@ export const paperList: PAPER[] = [
     "full": "IEEE Conference on Virtual Reality and 3D User Interfaces 2026",
     "honor": "",
     "materials": {
-      // "paper": "./pub/vr26/vr26.pdf"
+      "paper": "./pub/vr26/vr26.pdf"
     } as MATERIALS
   },
   {
